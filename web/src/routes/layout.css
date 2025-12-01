@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+	/* --*: initial; */
+	--font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	--color-ice-white: #F8FAFC;
+	--color-void-slate: #0F172A;
+	--color-ink-grey: #334155;
+	--color-deep-navy: #1E293B;
+	--color-logic-teal: #0D9488;
+	--color-muted-slate: #F1F5F9;
+	--color-slate-mist: #94A3B8;
+	--color-flux-indigo: #6366F1;
+	--color-light-grey: #E2E8F0;
+	--color-accent-hover: #115E59;
+}
+
+.wip {
+	border: 2px dashed yellow;
+}
+
+
+/* Primary Background	Ice White	#F8FAFC	The main app background (slightly cooler than pure white). */
+/* Sidebar/Dark UI	Void Slate	#0F172A	The sidebar navigation. Dark sidebars focus the eye on the center paper. */
+/* Paper Surface	Pure White	#FFFFFF	The actual note area. */
+/* Text (Body)	Ink Grey	#334155	Softer than black for long reading sessions. */
+/* Text (Headings)	Deep Navy	#1E293B	Sharp contrast for titles. */
+/* Accent/Action	Logic Teal	#0D9488	Buttons, links, active states, and highlights. */
+/* Code Background	Muted Slate	#F1F5F9	Background for code blocks or quotes. */
